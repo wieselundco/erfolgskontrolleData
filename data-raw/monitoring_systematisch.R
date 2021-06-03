@@ -1,5 +1,7 @@
 ## code to prepare `winterquartier_monitoring` dataset goes here
 
+## Beobachtete Strukturen (Formell) ##########################################
+
 library(readr)
 library(dplyr)
 
