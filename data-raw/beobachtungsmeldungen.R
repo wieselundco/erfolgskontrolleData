@@ -1,5 +1,8 @@
 ## code to prepare `beobachtungsmeldungen` dataset goes here
 
+## Beobachtungsmeldungen ###################################################
+
+
 library(DBI)
 library(sf)
 conn = DBI::dbConnect(
@@ -16,9 +19,6 @@ beobachtungsmeldungen <- read_sf(conn,
                                  crs = 2056)
 
 
-strukturen_alle <- DBI::dbGetQuery(conn, "SELECT * FROM wico.strukturen WHERE datum IS NOT NULL and x IS NOT NULL") %>%
-  st_as_sf(coords = c("x","y"), crs = 2056)
 
 
 usethis::use_data(beobachtungsmeldungen, overwrite = TRUE)
-usethis::use_data(strukturen_alle, overwrite = TRUE)
