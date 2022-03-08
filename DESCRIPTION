@@ -2,7 +2,7 @@ Package: WieselundCoData
 Type: Package
 Title: Data for the Project Wiesel und Co am Zimmerberg
 Version: 0.1.0
-Author: Nils Ratnaweera
+Author: Nils Ratnaweera, Stefan Keller
 Maintainer: Nils Ratnaweera <nils@ratnaweera.net>
 Description: In the Project Wiesel und Co am Zimmerberg Data on small mammals
   was gathered and analysed. To document and publish this data, we have created 
