@@ -9,8 +9,7 @@ data.
 
 To cite this package, use:
 
-Nils Ratnaweera, Stefan Keller (2021). Results from monitoring least weasels 
-and stoats in the district of Horgen from 2015 - 2020 (R-Packge). url: 
+Ratnaweera, N., Keller, S. (2021). Results from monitoring least weasels 
+and stoats in the district of Horgen from 2015 - 2020. url: 
 https://github.com/wieselundco/erfolgskontrolleData
-
 
